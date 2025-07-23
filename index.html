@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSRD vs CSDD: Sustainability Directive Challenge</title>
+    <meta name="description" content="Test your knowledge of Corporate Sustainability Reporting Directive (CSRD) and Corporate Sustainability Due Diligence Directive (CSDD)">
+    <meta property="og:title" content="CSRD vs CSDD: Sustainability Directive Challenge">
+    <meta property="og:description" content="Test your knowledge of European sustainability directives">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <div class="welcome-content">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h1>Sustainability Directive Challenge</h1>
+                <p class="subtitle">Test your knowledge of CSRD and CSDD</p>
+                <div class="quiz-info">
+                    <div class="info-item">
+                        <i class="fas fa-question-circle"></i>
+                        <span>16 Questions</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>~5 Minutes</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>Score & Share</span>
+                    </div>
+                </div>
+                <button id="start-quiz" class="btn btn-primary">
+                    <i class="fas fa-play"></i>
+                    Start Challenge
+                </button>
+                <div class="disclaimer">
+                    <p>Learn about European sustainability directives that are shaping corporate responsibility</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                    <span id="question-counter" class="question-counter">1 / 16</span>
+                </div>
+                <div class="timer-container">
+                    <i class="fas fa-clock"></i>
+                    <span id="timer">00:00</span>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <div id="question-container" class="question-container">
+                    <h2 id="question-text" class="question-text"></h2>
+                    <div id="answers-container" class="answers-container"></div>
+                </div>
+                
+                <div class="quiz-navigation">
+                    <button id="next-question" class="btn btn-primary" disabled>
+                        Next Question
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <div class="results-content">
+                <div class="score-circle">
+                    <div class="score-inner">
+                        <span id="final-score" class="score-number">0</span>
+                        <span class="score-total">/ 20</span>
+                    </div>
+                </div>
+                
+                <h2 id="performance-title" class="performance-title"></h2>
+                <p id="performance-description" class="performance-description"></p>
+                
+                <div class="score-breakdown">
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">Correct Answers</span>
+                        <span id="correct-answers" class="breakdown-value">0/16</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">Time Bonus</span>
+                        <span id="time-bonus" class="breakdown-value">+0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">Total Time</span>
+                        <span id="total-time" class="breakdown-value">00:00</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="share-linkedin" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i>
+                        Share on LinkedIn
+                    </button>
+                    <button id="restart-quiz" class="btn btn-primary">
+                        <i class="fas fa-redo"></i>
+                        Take Again
+                    </button>
+                </div>
+
+                <button id="review-answers" class="btn btn-outline">
+                    <i class="fas fa-eye"></i>
+                    Review Answers
+                </button>
+            </div>
+        </div>
+
+        <!-- Review Screen -->
+        <div id="review-screen" class="screen">
+            <div class="review-header">
+                <h2>Answer Review</h2>
+                <button id="back-to-results" class="btn btn-outline">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to Results
+                </button>
+            </div>
+            <div id="review-content" class="review-content"></div>
+        </div>
+    </div>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <div class="feedback-header">
+                <span id="feedback-icon" class="feedback-icon"></span>
+                <h3 id="feedback-title" class="feedback-title"></h3>
+            </div>
+            <p id="feedback-explanation" class="feedback-explanation"></p>
+            <button id="close-feedback" class="btn btn-primary">Continue</button>
+        </div>
+    </div>
+
+    <script src="quiz-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
