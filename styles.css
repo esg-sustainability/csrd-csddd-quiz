@@ -50,23 +50,22 @@ body {
 }
 
 .logo {
-    width: 435px; /* Or your desired size */
-    height: 435px; /* Or your desired size */
-    /* Remove the following two lines */
-    /* font-size: 36px; */
-    /* color: white; */
+    width: 435px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 30px;
+    line-height: 0; /* prevent extra inline spacing */
 }
 
 .company-logo {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
     display: block;
-    line-height: 0; /* Important for removing extra line height */
-    vertical-align: middle; /* Ensures proper vertical alignment */
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    border: 0;
 }
 
 @keyframes pulse {
