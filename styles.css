@@ -62,6 +62,8 @@ body {
     max-width: 100%; /* Ensures the image doesn't overflow its container */
     max-height: 100%; /* Ensures the image doesn't overflow its container */
     display: block; /* Removes extra space below the image */
+    line-height: 0; /* This can help remove extra space below inline elements */
+    vertical-align: middle; /* Ensures vertical alignment within its container */
     padding: 0; /* Ensure no internal padding */
     margin: 0;  /* Ensure no external margin */
 }
