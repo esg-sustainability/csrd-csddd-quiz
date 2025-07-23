@@ -1,4 +1,4 @@
-// Quiz Data for CSRD vs CSDD Challenge
+// Quiz Data for CSRD vs CSDDD Challenge
 const quizData = [
     {
         id: 1,
@@ -31,7 +31,7 @@ const quizData = [
         type: "multiple-choice",
         question: "Which directive does the CSRD replace?",
         options: [
-            "CSDD (Corporate Sustainability Due Diligence Directive)",
+            "CSDDD (Corporate Sustainability Due Diligence Directive)",
             "NFRD (Non-Financial Reporting Directive)",
             "GDPR (General Data Protection Regulation)",
             "MiFID (Markets in Financial Instruments Directive)"
@@ -42,7 +42,7 @@ const quizData = [
     {
         id: 4,
         type: "multiple-choice",
-        question: "What is the primary focus of the CSDD?",
+        question: "What is the primary focus of the CSDDD?",
         options: [
             "Financial reporting standards",
             "Data protection compliance",
@@ -50,12 +50,12 @@ const quizData = [
             "Market transparency regulations"
         ],
         correct: 2,
-        explanation: "The CSDD (Corporate Sustainability Due Diligence Directive) focuses on implementing procedures to identify, prevent, and mitigate negative impacts on human rights and the environment throughout the value chain."
+        explanation: "The CSDDD (Corporate Sustainability Due Diligence Directive) focuses on implementing procedures to identify, prevent, and mitigate negative impacts on human rights and the environment throughout the value chain."
     },
     {
         id: 5,
         type: "multiple-choice",
-        question: "What does the CSDD require companies to monitor throughout?",
+        question: "What does the CSDDD require companies to monitor throughout?",
         options: [
             "Their financial statements",
             "Their value chain",
@@ -63,7 +63,7 @@ const quizData = [
             "Their IT infrastructure"
         ],
         correct: 1,
-        explanation: "The CSDD requires companies to monitor and manage risks throughout their entire value chain, including relationships with suppliers and partners."
+        explanation: "The CSDDD requires companies to monitor and manage risks throughout their entire value chain, including relationships with suppliers and partners."
     },
     {
         id: 6,
@@ -94,7 +94,7 @@ const quizData = [
     {
         id: 8,
         type: "multiple-choice",
-        question: "What can happen if companies don't comply with the CSDD?",
+        question: "What can happen if companies don't comply with the CSDDD?",
         options: [
             "Nothing, it's voluntary",
             "Only reputational damage",
@@ -102,23 +102,23 @@ const quizData = [
             "Just a warning letter"
         ],
         correct: 2,
-        explanation: "Non-compliance with the CSDD can lead to legal sanctions and negatively affect an organization's brand image, making compliance crucial for companies."
+        explanation: "Non-compliance with the CSDDD can lead to legal sanctions and negatively affect an organization's brand image, making compliance crucial for companies."
     },
     {
         id: 9,
         type: "true-false",
-        question: "The CSRD and CSDD have identical objectives and requirements.",
+        question: "The CSRD and CSDDD have identical objectives and requirements.",
         options: ["True", "False"],
         correct: 1,
-        explanation: "False. While both directives focus on sustainability, they have distinct objectives: CSRD focuses on reporting transparency, while CSDD focuses on due diligence and action to prevent negative impacts."
+        explanation: "False. While both directives focus on sustainability, they have distinct objectives: CSRD focuses on reporting transparency, while CSDDD focuses on due diligence and action to prevent negative impacts."
     },
     {
         id: 10,
         type: "true-false",
-        question: "The CSDD applies only to European companies.",
+        question: "The CSDDD applies only to European companies.",
         options: ["True", "False"],
         correct: 1,
-        explanation: "False. The CSDD also covers non-European companies that generate significant revenue in the EU, extending its reach beyond just European organizations."
+        explanation: "False. The CSDDD also covers non-European companies that generate significant revenue in the EU, extending its reach beyond just European organizations."
     },
     {
         id: 11,
@@ -131,7 +131,7 @@ const quizData = [
     {
         id: 12,
         type: "true-false",
-        question: "Both CSRD and CSDD encourage a more proactive approach to sustainability.",
+        question: "Both CSRD and CSDDD encourage a more proactive approach to sustainability.",
         options: ["True", "False"],
         correct: 0,
         explanation: "True. Both directives encourage companies to adopt a more proactive and responsible approach to sustainability, though through different mechanisms."
@@ -142,12 +142,12 @@ const quizData = [
         question: "A company has 300 employees, €45 million annual turnover, and operates across Europe with a complex supply chain. Which directive(s) would likely apply?",
         options: [
             "Only CSRD",
-            "Only CSDD", 
-            "Both CSRD and CSDD",
+            "Only CSDDD", 
+            "Both CSRD and CSDDD",
             "Neither directive applies"
         ],
         correct: 2,
-        explanation: "Both directives would likely apply. The company meets CSRD criteria (250+ employees, €40M+ turnover) and as a large company with complex supply chains, it would also fall under CSDD requirements."
+        explanation: "Both directives would likely apply. The company meets CSRD criteria (250+ employees, €40M+ turnover) and as a large company with complex supply chains, it would also fall under CSDDD requirements."
     },
     {
         id: 14,
@@ -155,19 +155,19 @@ const quizData = [
         question: "A company discovers human rights violations in its supply chain. Which directive primarily guides the required response?",
         options: [
             "CSRD - they must report it",
-            "CSDD - they must take corrective action",
+            "CSDDD - they must take corrective action",
             "Both equally",
             "Neither, it's voluntary"
         ],
         correct: 1,
-        explanation: "The CSDD primarily guides this situation, as it requires companies to implement procedures to identify, prevent, and mitigate negative impacts on human rights, and take corrective actions when violations are discovered."
+        explanation: "The CSDDD primarily guides this situation, as it requires companies to implement procedures to identify, prevent, and mitigate negative impacts on human rights, and take corrective actions when violations are discovered."
     },
     {
         id: 15,
         type: "scenario",
         question: "An investor wants to compare the ESG performance of different companies. Which directive primarily serves this need?",
         options: [
-            "CSDD - due diligence reports",
+            "CSDDD - due diligence reports",
             "CSRD - standardized sustainability reporting",
             "Both provide equal value",
             "Neither addresses investor needs"
@@ -178,15 +178,15 @@ const quizData = [
     {
         id: 16,
         type: "challenge",
-        question: "Which statement best describes the complementary relationship between CSRD and CSDD?",
+        question: "Which statement best describes the complementary relationship between CSRD and CSDDD?",
         options: [
-            "CSRD focuses on transparency while CSDD focuses on action and prevention",
+            "CSRD focuses on transparency while CSDDD focuses on action and prevention",
             "Both directives have identical requirements and objectives",
-            "CSRD is mandatory while CSDD is voluntary",
-            "CSDD replaces CSRD for large companies"
+            "CSRD is mandatory while CSDDD is voluntary",
+            "CSDDD replaces CSRD for large companies"
         ],
         correct: 0,
-        explanation: "CSRD and CSDD are complementary: CSRD focuses on transparency and standardized reporting of ESG performance, while CSDD focuses on taking concrete actions to identify, prevent, and mitigate negative impacts throughout the value chain. Together, they create a comprehensive framework for corporate sustainability."
+        explanation: "CSRD and CSDDD are complementary: CSRD focuses on transparency and standardized reporting of ESG performance, while CSDDD focuses on taking concrete actions to identify, prevent, and mitigate negative impacts throughout the value chain. Together, they create a comprehensive framework for corporate sustainability."
     }
 ];
 
@@ -196,7 +196,7 @@ const performanceLevels = [
         minScore: 18,
         maxScore: 20,
         title: "Sustainability Expert",
-        description: "Outstanding! You have mastered the key concepts of both CSRD and CSDD. You're ready to guide organizations through these important sustainability directives.",
+        description: "Outstanding! You have mastered the key concepts of both CSRD and CSDDD. You're ready to guide organizations through these important sustainability directives.",
         emoji: "🏆"
     },
     {
@@ -217,7 +217,7 @@ const performanceLevels = [
         minScore: 9,
         maxScore: 11,
         title: "Learning Leader",
-        description: "You're making progress! Consider reviewing the key differences between CSRD and CSDD to strengthen your knowledge.",
+        description: "You're making progress! Consider reviewing the key differences between CSRD and CSDDD to strengthen your knowledge.",
         emoji: "📚"
     },
     {
